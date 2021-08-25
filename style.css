@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap');
+
 body {
     position: relative;
     width: 1600px;
@@ -19,6 +21,22 @@ body {
     height: 60px;
     left: 240px;
     top: 47px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-around; */
+}
+
+.head__top_logo{
+    display: contents;
+    position: absolute;
+    width: 49px;
+    height: 35px;
+    left: 240px;
+    top: 59px;
+
+
 }
 
 .head__top_rectangle32{
@@ -41,6 +59,37 @@ body {
     border-radius: 20px;
 }
 
+
+.head__top nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 410px;
+    top: 62px;
+
+}
+
+.head__top nav a{
+    font-family: Avenira, Manrope, 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #212353;
+
+}
+
+.head__top nav a:hover, a:focus{
+    color: #212353;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
 .head__top_button{
     position: absolute;
     width: 210px;
@@ -51,17 +100,8 @@ body {
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     border-radius: 50px;
     border:none;
-    
-}
 
-.head_top_button > p{
-    position: absolute;
-    width: 112px;
-    height: 26px;
-    left: 1179px;
-    top: 64px;
-
-    font-family: Avenir;
+    font-family: Avenir, Manrope;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -72,12 +112,92 @@ body {
     color: #212353;
 }
 
+.head__top_group56{
+    position: absolute;
+    width: 20px;
+    height: 14px;
+    left: 1311px;
+    top: 70px;
+}
+
+.head__top_group56{
+    position: absolute;
+    width: 152px;
+    height: 26px;
+    left: 1179px;
+    top: 64px;
+}
+
+
+.head__top_button p{
+    /* position: absolute; */
+    width: 112px;
+    height: 26px;
+    left: 1179px;
+    top: 64px;
+
+    /* font-family: Avenir, Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353; */
+}
+
 .head__headline{
     position: absolute;
     width: 645px;
     height: 464px;
     left: 240px;
     top: 237px;
+}
+
+.head__headline_h1{
+    position: absolute;
+    width: 645px;
+    height: 184px;
+    left: 240px;
+    top: 237px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    /* or 88px */
+
+    display: flex;
+    align-items: center;
+
+    /* 2 */
+
+    color: #212353;
+    z-index: 1;
+
+}
+
+.head__headline_p{
+    position: absolute;
+    width: 380px;
+    height: 120px;
+    left: 240px;
+    top: 471px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+
+
+    /* 1 */
+
+    color: #4B5D68;
+    z-index:1;
 }
 
 .head__image{
