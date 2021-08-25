@@ -1,35 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap");
 
-/* body {
-    position: relative;
-    width: 1600px;
-    height: 4350px;
-    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
-} */
-
 body {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  /* background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%); */
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 
 .head {
-  /* position: absolute;
-  width: 1248px;
-  height: 754px;
-  left: 240px;
-  top: 47px; */
+
+    height: 100vh;
+
 }
 
 .head__top {
     border: 2px solid red;
     width: 1120px;
-  height: 60px;
-  /* position: absolute; 
-  
-  left: 240px;
-  top: 47px */
+    height: 60px;
+    margin: 47px auto 130px;
 }
 
 .head__top_logo {
@@ -63,7 +51,7 @@ body {
 
 .head__top nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   width: 322px;
@@ -107,6 +95,7 @@ a:focus {
   line-height: 160%;
   display: flex;
   align-items: center;
+  justify-content: center;
   letter-spacing: 0.005em;
   color: #212353;
 }
@@ -116,6 +105,9 @@ a:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 152px;
+    height: 26px;
+
 }
 
 .head__top_button p {
@@ -124,7 +116,35 @@ a:focus {
   height: 26px;
   left: 1179px;
   top: 64px;
-} 
+}
+
+.head__top_group56{
+    width: 20px;
+    height: 14px;
+
+}
+
+.head__top_vector74{
+    margin: 5px 10px;
+    width: 20px;
+    height: 0px;
+    border: 1px solid #9C69E2;
+    box-sizing: border-box;
+}
+
+.head__top_polygon1{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 168px;
+    top: 22px;
+    border-top-color: none;
+    border-bottom: 3px solid #9C69E2;
+    border-right: 3px solid #9C69E2;
+    box-sizing: border-box;
+    transform: rotate(315deg);
+}
+
 
 .head__headline {
   position: absolute;
