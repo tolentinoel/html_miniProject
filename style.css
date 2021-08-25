@@ -14,7 +14,6 @@ body {
 }
 
 .head__top {
-    border: 2px solid red;
     width: 1120px;
     height: 60px;
     margin: 47px auto 130px;
@@ -147,54 +146,72 @@ a:focus {
 
 
 .head__headline {
-  position: absolute;
-  width: 645px;
-  height: 464px;
-  left: 240px;
-  top: 237px;
+    position: absolute;
+    width: 645px;
+    height: 464px;
+    left: 240px;
+    top: 195px;
 }
 
-.head__headline_h1 {
-  position: absolute;
-  width: 645px;
-  height: 184px;
-  left: 240px;
-  top: 237px;
+.head__headline_header {
+    margin: auto auto 50px;
+    width: 645px;
+    height: 184px;
+    left: 240px;
+    top: 237px;
 
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 80px;
-  line-height: 110%;
-  /* or 88px */
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
 
-  display: flex;
-  align-items: center;
-
-  /* 2 */
-
-  color: #212353;
-  z-index: 1;
+    display: flex;
+    align-items: center;
+    color: #212353;
+    z-index: 1;
 }
 
-.head__headline_p {
-  position: absolute;
-  width: 380px;
-  height: 120px;
-  left: 240px;
-  top: 471px;
+.head__headline_subcaption {
+    width: 380px;
+    height: 120px;
+    font-family: Avenir, Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4b5d68;
+    z-index: 1;
+    margin: auto 0px 50px;
+}
 
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 160%;
-  /* or 29px */
+.head__headline_learnMoreBtn{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    background: #9C69E2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  /* 1 */
+.head__headline_learnMoreBtn p{
+    position: absolute;
+/* width: 96px; */
+height: 29px;
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
 
-  color: #4b5d68;
-  z-index: 1;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
 }
 
 .head__image {
