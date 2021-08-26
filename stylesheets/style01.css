@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap");
 
 body {
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 
 .head {
-
     height: 100vh;
-
 }
 
 .head__top {
@@ -20,83 +18,82 @@ body {
 }
 
 .head__top_logo {
-  display: contents;
-  position: absolute;
-  width: 49px;
-  height: 35px;
-  left: 240px;
-  top: 59px;
+    display: contents;
+    position: absolute;
+    width: 49px;
+    height: 35px;
+    left: 240px;
+    top: 59px;
 }
 
 .head__top_rectangle32 {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 240px;
-  top: 74px;
-  background: #9c69e2;
-  border-radius: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 240px;
+    top: 74px;
+    background: #9c69e2;
+    border-radius: 20px;
 }
 
 .head__top_rectangle33 {
-  position: absolute;
-  width: 20px;
-  height: 35px;
-  left: 269px;
-  top: 59px;
-  background: #f063b8;
-  border-radius: 20px;
+    position: absolute;
+    width: 20px;
+    height: 35px;
+    left: 269px;
+    top: 59px;
+    background: #f063b8;
+    border-radius: 20px;
 }
 
 .head__top nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  width: 322px;
-  height: 30px;
-  left: 410px;
-  top: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 410px;
+    top: 62px;
 }
 
 .head__top nav a {
-  font-family: Avenira, Manrope, "Helvetica Neue", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  text-decoration: none;
-  color: #212353;
+    font-family: Avenira, Manrope, "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #212353;
 }
 
-.head__top nav a:hover,
-a:focus {
-  color: #212353;
-  font-weight: bolder;
-  text-decoration: none;
+.head__top nav a:hover {
+    color: #212353;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .head__top_button {
-  position: absolute;
-  width: 210px;
-  height: 60px;
-  left: 1150px;
-  top: 47px;
-  background: #ffffff;
-  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-  border-radius: 50px;
-  border: none;
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    left: 1150px;
+    top: 47px;
+    background: #ffffff;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: none;
 
-  font-family: Avenir, Manrope;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 160%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: 0.005em;
-  color: #212353;
+    font-family: Avenir, Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.005em;
+    color: #212353;
 }
 
 
@@ -110,7 +107,6 @@ a:focus {
 }
 
 .head__top_button p {
-  /* position: absolute; */
   width: 112px;
   height: 26px;
   left: 1179px;
@@ -198,26 +194,24 @@ a:focus {
 
 .head__headline_learnMoreBtn p{
     position: absolute;
-/* width: 96px; */
-height: 29px;
-font-family: Avenir;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 160%;
-/* identical to box height, or 29px */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
+    height: 29px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .head__image {
-  position: absolute;
-  width: 885px;
-  height: 468px;
-  left: 603px;
-  top: 333px;
+    position: absolute;
+    width: 885px;
+    height: 468px;
+    left: 603px;
+    top: 333px;
 }
+
+
