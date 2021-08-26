@@ -22,8 +22,51 @@
 
 }
 
-.features__cards_search{
+.features__cards_search_container{
+    position: absolute;
+    width: 531.29px;
+    height: 358px;
+    overflow: hidden;
+    border-radius: 50px;
+}
 
+.features__cards_search img{
+    position: absolute;
+    width: 232px;
+    height: 211px;
+}
+
+.features__cards_search p{
+    position: absolute;
+    width: 220px;
+    height: 160px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+
+    color: #4B5D68;
+
+}
+
+.features__cards_rectangle39{
+    position: absolute;
+    bottom: 0px;
+    right: -30px;
+    width: 442px;
+    height: 358px;
+    background: #68C9BA;
+    opacity: 0.1;
+    border-radius: 50px;
+    /* border-bottom: 100px solid #32557f;
+    border-left: 40px solid transparent; */
+
+    transform: skew(350deg);
+    -webkit-transform: skew(350deg);
+    -moz-transform: skew(350deg);
+    -o-transform: skew(350deg);
 }
 
 .features__cards_24hrAccess{
