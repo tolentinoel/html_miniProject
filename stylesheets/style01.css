@@ -4,11 +4,11 @@ body {
     margin: 0px;
     padding: 0px;
     width: 100%;
-    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    background: -webkit-linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 
 .head {
-    height: 100vh;
+    height: fit-content;
 }
 
 .head__top {
