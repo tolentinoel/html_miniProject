@@ -81,6 +81,7 @@
     align-items: center;
     letter-spacing: 0.005em;
     margin: 0 20px 0 0;
+    padding-top: 5px;
 }
 
 .features__cards h4{
