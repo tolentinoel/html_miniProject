@@ -7,15 +7,42 @@
 }
 
 .features__title{
-
+    width: 584px;
+    height: 160px;
+    margin: auto auto 100px auto;
 }
 
 .features__title_header{
+    justify-content: center;
 
+    width: 405px;
+    height: 52px;
+    margin: auto;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+
+    display: flex;
+    /* align-items: center;
+    text-align: center; */
+
+    color: #212353;
 }
 
 .features__title_p{
-
+    margin: 50px auto 100px auto;
+    width: 584px;
+    height: 58px;
+    font-family: Avenir, Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #4B5D68;
 }
 
 .features__cards{
@@ -36,8 +63,24 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
-    left: 270px;
+    left: 262px;
     color: #4B5D68;
+}
+
+#learnMore_p{
+    position: static;
+    bottom: 33px;
+    width: 87px;
+    height: 26px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    margin: 0 20px 0 0;
 }
 
 .features__cards h4{
@@ -50,7 +93,7 @@
     /* or 31px */
     display: flex;
     align-items: center;
-    left: 270px;
+    left: 262px;
     top: 50px;
     color: #212353;
     margin:auto
@@ -61,6 +104,40 @@
     width: 532px;
     height: 358px;
 }
+
+.features__cards_arrowContainer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    /* width: 152px; */
+    height: 26px;
+    left: 262px;
+    bottom: 33px;
+    cursor: pointer;
+}
+
+
+.features__cards_vector74{
+    width: 20px;
+    height: 0px;
+    border: 1px solid #9C69E2;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.features__cards_polygon1{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 111px;
+    top: 9px;
+    border-bottom: 2.5px solid #9C69E2;
+    border-right: 2.5px solid #9C69E2;
+    box-sizing: border-box;
+    transform: rotate(315deg);
+}
+
 
 
 .features__cards_search_container{
@@ -92,24 +169,28 @@
     position: absolute;
     width: 232px;
     height: 211px;
+    margin-top: 73px;
 }
 
 #twenty4hr_img{
     position: absolute;
     width: 241px;
     height: 185px;
+    margin-top: 70px;
 }
 
 #printOut_img{
     position: absolute;
     width: 245px;
     height: 181px;
+    margin-top: 123px;
 }
 
 #security_img{
     position: absolute;
     width: 230px;
     height: 201px;
+    margin-top: 86px;
 }
 
 #search_text, #twenty4hr_text, #printOut_text, #security_text {
