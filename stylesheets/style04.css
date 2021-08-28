@@ -31,6 +31,7 @@
     display: flex;
     align-items: center;
     color: #FFFFFF;
+    margin: auto;
 
 }
 
@@ -71,7 +72,6 @@
 
 
 .testimonials__container_content{
-    /* position: absolute; */
     width: 505px;
     height: 220px;
 }
@@ -87,6 +87,13 @@
     right: 70px;
     width: 385px;
     height: 200px;
+    font-family: Avenir, Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4B5D68;
+
 }
 
 .testimonials__text_2{
@@ -95,6 +102,30 @@
     right: 70px;
     width: 180px;
     height: 130px;
+    font-family: Avenir, Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4B5D68;
+}
+
+.testimonials__name{
+    font-weight: 800;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    margin:auto;
+}
+
+.testimonials__title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #9C69E2;
 }
 
 .testimonials__slide{
