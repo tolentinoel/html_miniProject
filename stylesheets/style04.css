@@ -1,0 +1,218 @@
+.testimonials{
+    position: absolute;
+    width: 1118px;
+    height: 709px;
+    left: 242px;
+    top: 2789px;
+    overflow: hidden;
+}
+
+
+.testimonials__rectangle34{
+    position: absolute;
+    width: 1118px;
+    height: 709px;
+    background: #9C69E2;
+    border-radius: 50px;
+
+}
+
+.testimonials__header{
+    position: absolute;
+    width: 405px;
+    height: 52px;
+    left: 93px;
+    top: 109px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin: auto;
+
+}
+
+.testimonials__container{
+    position: absolute;
+
+}
+
+.testimonials__container_1, .testimonials__container_2{
+    top: 250px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgb(98 61 148 / 32%);
+    border-radius: 20px;
+    position: inherit;
+
+}
+
+.testimonials__container_1{
+    display: flex;
+    left: 93px;
+    width: 645px;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials__container_2{
+    display: flex;
+    left: 758px;
+    width: 360px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+
+    background:linear-gradient(270deg, #9C69E2 9%, rgb(255 255 255) 90%);
+    box-shadow: 0px 20px 0px rgb(70 53 93 / 10%);
+}
+
+
+.testimonials__container_content{
+    width: 505px;
+    height: 220px;
+}
+
+
+.testimonials__ellipse{
+    /* margin: 55px 0px 0px 40px; */
+}
+
+.testimonials__text_1{
+    position:absolute;
+    top: 80px;
+    right: 70px;
+    width: 385px;
+    height: 200px;
+    font-family: Avenir, Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4B5D68;
+
+}
+
+.testimonials__text_2{
+    position:absolute;
+    top: 80px;
+    right: 70px;
+    width: 180px;
+    height: 130px;
+    font-family: Avenir, Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4B5D68;
+}
+
+.testimonials__name{
+    font-weight: 800;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    margin:auto;
+}
+
+.testimonials__title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #9C69E2;
+}
+
+.testimonials__slide{
+    position: absolute;
+    display: flex;
+    bottom: 60px;
+    left: 93px;
+    height: 10px;
+    width: 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials__slide_ellipse1{
+    width: 10px;
+    height: 10px;
+    background: #F063B8;
+    border-radius: 50%;
+}
+
+.testimonials__slide_ellipse2{
+    width: 5px;
+    height: 5px;
+    background: #FFFFFF;
+    border-radius: 2px;
+
+}
+
+
+.testimonials__arrows{
+    position: absolute;
+    display: flex;
+    bottom: 60px;
+    right: 76px;
+    height: 14px;
+    width: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials__arrows_left_vector74{
+    width: 40px;
+    height: 0px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+
+.testimonials__arrows_left_polygon1{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 4px;
+    border-bottom: 2.5px solid #ffffff;
+    border-right: 2.5px solid #ffffff;
+    box-sizing: border-box;
+    transform: rotate(136deg);
+}
+
+.testimonials__arrows_right{
+    opacity: 0.5;
+}
+
+.testimonials__arrows_right_vector74{
+    width: 20px;
+    height: 0px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.testimonials__arrows_right_polygon1{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 69px;
+    top: 4px;
+    border-bottom: 2.5px solid #ffffff;
+    border-right: 2.5px solid #ffffff;
+    box-sizing: border-box;
+    transform: rotate(315deg);
+}
+/* position: absolute;
+bottom: 10px;
+left: 93px;
+width: 55px;
+height: 10px; */
