@@ -123,6 +123,63 @@
 
 }
 
+
+.testimonials__arrows{
+    position: absolute;
+    display: flex;
+    bottom: 60px;
+    right: 76px;
+    height: 14px;
+    width: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials__arrows_left_vector74{
+    width: 40px;
+    height: 0px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+
+.testimonials__arrows_left_polygon1{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 4px;
+    border-bottom: 2.5px solid #ffffff;
+    border-right: 2.5px solid #ffffff;
+    box-sizing: border-box;
+    transform: rotate(136deg);
+}
+
+.testimonials__arrows_right{
+    opacity: 0.5;
+}
+
+.testimonials__arrows_right_vector74{
+    width: 20px;
+    height: 0px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.testimonials__arrows_right_polygon1{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 69px;
+    top: 4px;
+    border-bottom: 2.5px solid #ffffff;
+    border-right: 2.5px solid #ffffff;
+    box-sizing: border-box;
+    transform: rotate(315deg);
+}
 /* position: absolute;
 bottom: 10px;
 left: 93px;
