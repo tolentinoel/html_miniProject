@@ -63,6 +63,7 @@
     height: 60px;
     top:121px;
     right:243px;
+    
 }
 
 .footer__buttons_learn{
@@ -100,4 +101,76 @@
     height: 311.2px;
     bottom: 90px;
     left: 240px;
+    top: 250px;
+    padding-top: 51px;
+}
+
+.footer__logo{
+    position: absolute;
+    width: 49px;
+    height: 35px;
+    
+}
+
+
+.footer__logo_rectangle32 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom:0px;
+    background: #9c69e2;
+    border-radius: 20px;
+}
+
+.footer__logo_rectangle33 {
+    position: absolute;
+    width: 20px;
+    height: 35px;
+    left: 29px;
+    background: #f063b8;
+    border-radius: 20px;
+}
+
+
+.footer__footer span{
+    position: absolute;
+    left: 50px;
+    width: 153px;
+    height: 30px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 160%;
+    color: #212353;
+    margin-left: 20px;
+}
+
+#dataWarehouse{
+    margin: 5px auto auto;
+}
+
+.footer__footer_info{
+    position: absolute;
+    width: 335px;
+    height: 130px;
+    left:0px;
+    top:148px;
+    font-family: Avenir, Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    margin:auto;
+    letter-spacing: 0.01em;
+    color: #212353;
+   
+}
+
+.footer__footer_info_1{
+    font-weight: 500;
+}
+
+.footer__footer_info_2{
+    
 }
