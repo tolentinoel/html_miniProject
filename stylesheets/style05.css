@@ -1,0 +1,22 @@
+.footer{
+    position: absolute;
+    margin-bottom: 90px;
+    width: 100%;
+    height: 613px;
+    bottom: -184em;
+
+}
+
+.footer__border{
+    position: absolute;
+    width: 100vw;
+    height:2px;
+    background-color: #9C69E2;
+    opacity: 0.2;
+}
+
+.footer__header{
+    position: absolute;
+    width: 584px;
+    height: 101px;
+}
