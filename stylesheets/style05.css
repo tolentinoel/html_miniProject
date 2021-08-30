@@ -1,15 +1,14 @@
 .footer{
     position: absolute;
     margin-bottom: 90px;
-    width: 100%;
+    width: 1600px;
     height: 613px;
-    bottom: -184em;
-
+    top: 3648px;
 }
 
 .footer__border{
     position: absolute;
-    width: 100vw;
+    width: inherit;
     height:2px;
     background-color: #9C69E2;
     opacity: 0.2;
@@ -63,7 +62,7 @@
     height: 60px;
     top:121px;
     right:243px;
-    
+
 }
 
 .footer__buttons_learn{
@@ -71,8 +70,6 @@
     position: absolute;
     width: 170px;
     height: 60px;
-    /* left: 1150px;
-    top: 47px; */
     background: #F063B8;
     border-radius: 50px;
     border: none;
@@ -109,7 +106,7 @@
     position: absolute;
     width: 49px;
     height: 35px;
-    
+
 }
 
 
@@ -164,13 +161,104 @@
     margin:auto;
     letter-spacing: 0.01em;
     color: #212353;
-   
+
 }
 
 .footer__footer_info_1{
     font-weight: 500;
+    margin:auto;
 }
 
 .footer__footer_info_2{
-    
+    margin: 10px auto auto auto;
+}
+
+.footer__footer_about{
+    position: absolute;
+    width: 166px;
+    height: 220px;
+    left: 475px;
+}
+
+.footer__footer_about_header, .footer__footer_about_text{
+
+    font-family: Avenir, Manrope;
+    font-style: normal;
+    color: #212353;
+    font-size: 16px;
+}
+
+
+.footer__footer_about_header, .footer__footer_help_header, .footer__footer_social_header{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.footer__footer_about_text{
+    cursor: pointer;
+    width: 166px;
+    height: 160px;
+    font-weight: normal;
+    line-height: 250%;
+
+}
+
+.footer__footer_help{
+    position: absolute;
+    width: 166px;
+    height: 220px;
+    left: 691px;
+}
+
+.footer__footer_help_header, .footer__footer_help_text, .footer__footer_social_header{
+
+    font-family: Avenir, Manrope;
+    font-style: normal;
+    color: #212353;
+    font-size: 16px;
+}
+
+.footer__footer_help_text{
+    cursor: pointer;
+    width: 166px;
+    height: 160px;
+    font-weight: normal;
+    line-height: 250%;
+
+}
+
+.footer__footer_social{
+    position:absolute;
+    right: 0px;
+    width: 178px;
+    height: 110px;
+}
+
+.footer__footer_social_header{
+    margin-bottom: 30px;
+}
+
+.footer__footer_social_icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__footer_social_fb, .footer__footer_social_twitter, .footer__footer_social_ig{
+    width: 50px;
+    height: 50px;
+    background: #212353;
+    opacity: 0.1;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor:pointer;
+}
+
+.footer__footer_social_icons div:hover{
+    background-color: #9c69e2;
+    opacity: 0.8;
 }
