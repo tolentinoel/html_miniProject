@@ -1,10 +1,9 @@
 .features{
-    position: absolute;
     width: 1137.28px;
     height: 1026px;
     left: 220px;
     top: 1613px;
-    margin-bottom: 150px;
+    margin: 0px auto 150px 220px;
 }
 
 .features__title{

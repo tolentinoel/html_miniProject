@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap");
 
+
+html {
+    width: 1600px;
+    height: 4350px;
+}
+
 body {
+    min-height: 100%;
+    -webkit-font-smoothing: antialiased;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -8,7 +16,7 @@ body {
 }
 
 .head {
-    height: fit-content;
+    height: 754px;
 }
 
 .head__top {
